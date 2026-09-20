@@ -27,7 +27,7 @@ router.post("/signup", async (req, res) => {
 
         if (existingUser) {
             return res.status(400).json({
-                message: "A user with the same Aadhar Card Number already exists."
+                message: "A User with the same Aadhar Card Number already exists."
             });
         }
 
