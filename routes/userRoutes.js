@@ -18,7 +18,7 @@ router.post("/signup", async (req, res) => {
         // 1. Validate Aadhaar
         if (!/^\d{12}$/.test(aadharCardNumber)) {
             return res.status(400).json({
-                message: "Aadhar Card Number must have exactly 12 digits."
+                message: "Aadhar Card Number must have 12 digits exactly."
             });
         }
 
