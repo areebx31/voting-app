@@ -15,3 +15,30 @@ The project uses Node.js, Express.js, MongoDB and Mongoose. I also implemented J
 - dotenv
 - Postman
 
+## Features
+
+- User signup
+- User login and authentication
+- Password hashing
+- JWT token authentication
+- Protected routes
+- Candidate management
+- Voting functionality
+- Vote counting
+- MongoDB database
+
+## Project Structure
+
+```text
+voting app/
+├── models/
+│   ├── User.js
+│   └── Candidate.js
+├── routes/
+│   ├── userRoutes.js
+│   └── candidateRoutes.js
+├── server.js
+├── db.js
+├── jwt.js
+├── package.json
+└── .env
