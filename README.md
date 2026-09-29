@@ -27,7 +27,7 @@ The project uses Node.js, Express.js, MongoDB and Mongoose. I also implemented J
 - Vote counting
 - MongoDB database
 
-## Project Structure
+# Project Structure
 
 ```text
 voting app/
