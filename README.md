@@ -17,7 +17,7 @@ The project uses Node.js, Express.js, MongoDB and Mongoose. I also implemented J
 
 ## Features
 
-- User signup
+- User Signup
 - User login and authentication
 - Password hashing
 - JWT token authentication
